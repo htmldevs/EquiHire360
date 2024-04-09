@@ -93,37 +93,6 @@
    .mainmenu ul li a{
       padding: 0.5em;
    }
-   .sl-img img { 
-      height: 350px; 
-      border-radius:15px;
-   }
-  .timer-box h2 { 
-      font-size: 20px;
-   }
-   .hero-img-content .site-btn { 
-      padding: 0.7em 1.8em; 
-   }
-   .partner-sliders img { 
-      max-height: 100px; 
-   }
-   .auction-content { 
-      padding: 50px 30px;
-   } 
-   .acution-option h4 {
-      font-size: 16px;
-   }
-
-   .acution-option {
-      gap: 2rem !important;
-   }
-   .testimonial-single-item > img{
-      width: 100px;
-      height: 100px;
-   }
-   .app_stores a img {
-      margin: 0;
-      max-width: 140px;
-   }
 
 }
 
@@ -133,98 +102,7 @@
    .container {
       max-width: 750px;
    }
-   h1 {
-      font-size: 35px;
-   }
    /* GLOBAL// */
-   .hero-area .section-content h1 {
-      font-size: 32px;
-  }
-  
-  .sl-img img {
-      height: 340px;
-  }
-  
-  .hero-counter {
-      width: 70%;
-  }
-  
-  .timer-box h2 {
-      font-size: 24px;
-  }
-  
-  .hero-img-content .site-btn {
-      padding: 0.6em 1.8em;
-  }
-  .partner-sliders { 
-   justify-content: center;
-   gap: 0;
-}
-.partner-sliders img { 
-   max-height: 75px; 
-}
-.acution-option {
-   flex-wrap: wrap;
-   gap: 1rem !important;
-}
-
-.acution-option h4 span {
-   margin-top: 5px;
-}
-.auction-content { 
-   padding: 30px 25px;
-}
-.product-text p {
-   font-size: 16px; 
-}
-.product-text h3 {
-   font-size: 18px; 
-}
-.about-area .section-content h3 {
-   font-size: 36px;
-}
-.contact-form { 
-   padding: 30px;
-   border-radius: 15px;
-}
-textarea{
-   min-height: 100px;
-}
-.contact-form textarea {
-   height: 115px;
-}
-.social_medias a img { 
-   max-width: 20px;
-}
-.social_medias { 
-   gap: 10px; 
-}
-.app_stores a img { 
-   max-width: 90px;
-}
-.bar-icon{
-   display: block;
-}
-.header-action .bar-icon{
-   margin: 0;
-}
-.testimonial-single-item p{
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-}
-.testimonial-single-item { 
-   height: auto;  
-   padding: 25px 20px;
-}
-
-/* AUCTION BID PAGE */
-.auction-gallery {
-   height: 500px;
-}
-
-
-
 }
  
 /*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
@@ -302,6 +180,11 @@ textarea{
    }
    textarea {
       height: 60px;
+   }
+   .contact-form {
+      padding: 1.5em;
+      border: 2px solid #E8E8E8;
+      border-top: 0;
    }
 
 }

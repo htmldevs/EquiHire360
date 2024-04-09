@@ -676,3 +676,20 @@ textarea {
 .progress-bar {
 	background-color: var(--theme-color);
 }
+
+
+/* CONTACT FORM */
+.form-content {
+   height: 100%;
+   background-color: var(--theme-color);
+   padding: 1.5em;
+}
+.contact-form {
+	padding: 3em;
+	border: 2px solid #E8E8E8;
+	border-left: 0;
+}
+.text-underline {
+	text-decoration: underline;
+}
+/* CONTACT FORM end */
