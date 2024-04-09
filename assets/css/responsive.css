@@ -1,0 +1,298 @@
+/*========== XL-DESKTOP : BETWEEN 1200px TO 1500PX. ==========*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* GLOBAL */
+    .container {
+       max-width: 1120px;
+    }
+    h1 {
+       font-size: 52px;
+    }
+    h2 {
+       font-size: 43px;
+    }
+    h3 {
+       font-size: 36px;
+    }
+    h4 {
+       font-size: 25px;
+    }
+    h5 {
+       font-size: 20px;
+    }
+    h6 {
+       font-size: 16px;
+    }
+    body {
+       font-size: 15px;
+    }
+
+    /* ALL */
+   .auction-link {
+      margin-top: 40px;
+   }
+    .acution-option h4 {
+      font-size: 20px;
+   }
+   .auction-timer .hero-counter h3 {
+      font-size: 28px;
+   }
+   .video-wrapper {
+      height: 550px;
+   }
+}
+
+/*========== LG + MD : BETWEEN 768PX TO 1199PX. ==========*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* GLOBAL */
+    h1 {
+       font-size: 40px;
+    }
+    h2 {
+       font-size: 38px;
+    }
+    h3 {
+       font-size: 28px;
+    }
+    h4 {
+       font-size: 20px;
+    }
+    h5 {
+       font-size: 20px;
+    }
+    h6 {
+       font-size: 14px;
+    }
+    body {
+       font-size: 14px;
+    }
+    input, textarea {
+      font-size: 14px;
+   }
+   .pr-md-lg-0 {
+      padding-right: 0;
+   }
+   /* GLOBAL// */
+   .hero-area {
+      height: 500px;
+   }
+   .logo img {
+      max-width: 150px;
+   }
+   .stuff-item {
+      height: 350px;
+   }
+
+}
+
+/*========== LG-DESKTOP : BETWEEN 992PX TO 1199px. ==========*/
+@media (min-width: 992px) and (max-width: 1199px) {
+   /* GLOBAL */
+   .container {
+       max-width: 920px;
+   }
+   .mainmenu ul li a{
+      padding: 0.5em;
+   }
+   .sl-img img { 
+      height: 350px; 
+      border-radius:15px;
+   }
+  .timer-box h2 { 
+      font-size: 20px;
+   }
+   .hero-img-content .site-btn { 
+      padding: 0.7em 1.8em; 
+   }
+   .partner-sliders img { 
+      max-height: 100px; 
+   }
+   .auction-content { 
+      padding: 50px 30px;
+   } 
+   .acution-option h4 {
+      font-size: 16px;
+   }
+
+   .acution-option {
+      gap: 2rem !important;
+   }
+   .testimonial-single-item > img{
+      width: 100px;
+      height: 100px;
+   }
+   .app_stores a img {
+      margin: 0;
+      max-width: 140px;
+   }
+
+}
+
+/*========== MD-TABLET : BETWEEN 768PX TO 991PX ==========*/
+ @media (min-width: 768px) and (max-width: 991px) {
+   /* GLOBAL */
+   .container {
+      max-width: 750px;
+   }
+   h1 {
+      font-size: 35px;
+   }
+   /* GLOBAL// */
+   .hero-area .section-content h1 {
+      font-size: 32px;
+  }
+  
+  .sl-img img {
+      height: 340px;
+  }
+  
+  .hero-counter {
+      width: 70%;
+  }
+  
+  .timer-box h2 {
+      font-size: 24px;
+  }
+  
+  .hero-img-content .site-btn {
+      padding: 0.6em 1.8em;
+  }
+  .partner-sliders { 
+   justify-content: center;
+   gap: 0;
+}
+.partner-sliders img { 
+   max-height: 75px; 
+}
+.acution-option {
+   flex-wrap: wrap;
+   gap: 1rem !important;
+}
+
+.acution-option h4 span {
+   margin-top: 5px;
+}
+.auction-content { 
+   padding: 30px 25px;
+}
+.product-text p {
+   font-size: 16px; 
+}
+.product-text h3 {
+   font-size: 18px; 
+}
+.about-area .section-content h3 {
+   font-size: 36px;
+}
+.contact-form { 
+   padding: 30px;
+   border-radius: 15px;
+}
+textarea{
+   min-height: 100px;
+}
+.contact-form textarea {
+   height: 115px;
+}
+.social_medias a img { 
+   max-width: 20px;
+}
+.social_medias { 
+   gap: 10px; 
+}
+.app_stores a img { 
+   max-width: 90px;
+}
+.bar-icon{
+   display: block;
+}
+.header-action .bar-icon{
+   margin: 0;
+}
+.testimonial-single-item p{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.testimonial-single-item { 
+   height: auto;  
+   padding: 25px 20px;
+}
+
+/* AUCTION BID PAGE */
+.auction-gallery {
+   height: 500px;
+}
+
+
+
+}
+ 
+/*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
+@media (max-width: 767px) {
+   /* GLOBAL */
+   h1 {
+      font-size: 32px;
+   }
+   h2 {
+      font-size: 32px;
+   }
+   h3 {
+      font-size: 26px;
+   }
+   h4 {
+      font-size: 18px;
+   }
+   h5 {
+      font-size: 16px;
+   }
+   h6 {
+      font-size: 14px;
+   }
+   body {
+      font-size: 14px;
+   }
+   .scroll-up {
+      font-size: 12px;
+   }
+   input, textarea {
+      font-size: 12px;
+      border-width: 2px;
+   }
+   .footer-menu ul li a {
+      padding: 0 0.5em;
+   }
+   .logo img {
+      max-width: 150px;
+   }
+   /* GLOBAL// */
+
+   /* HERO */
+   .hero-area {
+      height: 400px;
+   }
+
+   /* STUFF */
+   .stuff-item {
+      border-radius: 80px 0 80px 0;
+      height: 400px;
+   }
+   .price-box.active {
+      transform: inherit;
+      border-color: transparent;
+   }
+   .price-box h3 {
+      font-size: 28px;
+   }
+   .price-box h2 {
+      font-size: 34px;
+   }
+
+}
+
+/*========== LARGE MOBILE : BETWEEN 480PX TO 767PX ==========*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+       max-width: 350px;
+    }
+}
+ 
