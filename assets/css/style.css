@@ -577,3 +577,21 @@ footer,
 	font-size: 14px;
 	color: #000;
 }
+
+
+/* DASHBOARD PAGE */
+.header-2 {
+   background-color: #F3F3F3;
+}
+.single-box,
+.single-box-2 {
+	border: 2px solid var(--black-color);
+	padding: 2em;
+}
+.single-box-2 {
+   padding: 1.5em;
+}
+.single-box .site-btn {
+	padding: 0.7em 1em;
+   text-decoration: underline;
+}
