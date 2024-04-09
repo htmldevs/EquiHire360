@@ -124,7 +124,7 @@ input:focus, textarea:focus {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 textarea {
-	min-height: 170px;
+	min-height: 100px;
 }
 ::-moz-placeholder,
 ::placeholder {
@@ -638,4 +638,41 @@ textarea {
 .checkbox-input input[type="checkbox"]:checked + label span {
 	background-color: var(--theme-color);
   border-color: transparent;
+}
+
+
+/* CANDIDATE PAGE */
+.candidate-item {
+   border-radius: 15px;
+   transition: .3s ease-in-out;
+}
+.cadidate-thumb {
+   overflow: hidden;
+   border-radius: 10px 10px 0 0;
+}
+.candidate-item:hover {
+   box-shadow: 0 5px 15px 0 #0000000d;
+}
+.candidate-item:hover .cadidate-thumb img {
+   transform: scale(1.1);
+}
+.cadidate-info {
+  padding: 1em;
+  border: 1px solid #E8E8E8;
+  border-top: 0;
+}
+.cadidate-info h5 span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+.cadidate-info .site-btn {
+	font-size: 14px;
+}
+.target-dei .site-btn {
+   text-decoration: none;
+}
+.progress-bar {
+	background-color: var(--theme-color);
 }
