@@ -97,14 +97,6 @@ ul {
 li {
    list-style: none;
 }
-[data-rtl="true"] {
-   direction: rtl;
-}
-
-[data-rtl="true"] .auction-content > h3:after {
-   left: auto;
-   right: 0;
-}
 .gap-2 {
    gap: .3rem !important;
 }
@@ -122,12 +114,11 @@ li {
 /* INPUT, SELECT, TEXTAREA, PLACEHOLDER */
 input, textarea {
 	width: 100%;
-	padding: 1em 1em;
+	padding: 0.8em 1em;
 	color: var(--black-color);
-	background-color: #F6F6F6;
 	transition: .3s;
-	border: 0;
-	border-radius: 10px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
 }
 input:focus, textarea:focus {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -303,7 +294,6 @@ footer,
 	display: inline-block;
 	background: var(--theme-color);
 	color: var(--white-color);
-	text-transform: uppercase;
 	border-radius: 2px;
    transition: .3s;
 }
@@ -325,11 +315,6 @@ footer,
 /* HEADER */
 .header-area {
    padding: 15px 0;
-   /* position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   z-index: 999; */
    z-index: 999;
    transition: 0.3s ease;
 }
@@ -594,4 +579,63 @@ footer,
 .single-box .site-btn {
 	padding: 0.7em 1em;
    text-decoration: underline;
+}
+
+
+/* JOB POSTING PAGE */
+.posting-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+.posting-form {
+	padding: 3em;
+	background-color: var(--white-color);
+	box-shadow: 0 5px 15px 0 #00000017;
+}
+.nice-select {
+	float: inherit;
+	font-size: inherit;
+	padding: 0.8em 1em;
+	height: auto;
+	line-height: inherit;
+}
+.nice-select::after {
+	height: 0.5em;
+	right: 1em;
+	width: 0.5em;
+}
+.nice-select > span {
+	opacity: .5;
+}
+.nice-select ul.list {
+   width: 100%;
+}
+
+textarea {
+   height: 120px;
+}
+
+.checkbox-input label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.checkbox-input label span {
+  width: 1.25em;
+  height: 1.25em;
+  border: 1px solid #979797;
+  border-radius: 3px;
+}
+.checkbox-input input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.checkbox-input input[type="checkbox"]:checked + label span {
+	background-color: var(--theme-color);
+  border-color: transparent;
 }

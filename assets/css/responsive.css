@@ -298,6 +298,12 @@ textarea{
    .price-box h2 {
       font-size: 34px;
    }
+   .posting-form {
+      padding: 2em 1.5em;
+   }
+   textarea {
+      height: 60px;
+   }
 
 }
 
